@@ -1,0 +1,14 @@
+{
+  "name": "stacknotes_landing",
+  "version": "1.0.0",
+  "description": "Landing and download page for Stack.Notes()",
+  "main": "index.js",
+  "scripts": {
+    "test": "go"
+  },
+  "author": "Olivier Coq",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta2"
+  }
+}
