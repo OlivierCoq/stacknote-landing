@@ -1,0 +1,16 @@
+// Sass Variables
+@import "partials/variables";
+//Site-Wide CSS:
+@import "partials/base";
+
+// Libraries
+@import "libraries/bootstrap-5.0.0-beta2/scss/bootstrap";
+
+//Commonly used components (Things like buttons, links, icons, etc)
+// @import "components/buttons";
+
+// Sitewide Sections
+// @import "sections/header";
+
+// Page specific CSS:
+@import "pages/home";

@@ -1,0 +1,99 @@
+#home {
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: 50% 20%;
+  height: 100vh;
+
+  .ctr-copy {
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @media(max-width:992px){
+      height: 15rem;
+    }
+
+    h1 {
+      font-size: 4.5rem;
+      font-family: $main-font;
+
+      @media(max-width:1200px){ font-size: 2.5rem; }
+    }
+    p {
+      font-size: 1.2rem;
+
+      @media(max-width:1200px){ font-size: 1rem; }
+    }
+    button { color: white; }
+  }
+
+  .ctr-mockup {
+    img {
+      width: 100%;
+      box-shadow: $shadow;
+    }
+  }
+}
+
+#features {
+  margin-top: -7rem;
+
+  img {
+    width: 100%;
+    box-shadow: $shadow;
+  }
+}
+
+#plans {
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  // height: 100vh;
+
+  h2 {
+    font-size: 3.5rem;
+    font-family: $main-font;
+
+    @media(max-width:1200px){ font-size: 2.5rem; }
+  }
+  p {
+    font-size: 1.2rem;
+    color: $gray-1;
+
+    @media(max-width:1200px){ font-size: 1rem; }
+  }
+
+  .item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .card {
+      width: 30rem;
+      box-shadow: $shadow;
+
+      button {color: white;}
+    }
+  }
+
+  #footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    height: 10rem;
+
+    a {
+      color: white;
+      text-decoration: none;
+
+      &:hover,
+      &:visited,
+      *:active {
+        text-decoration: none;
+      }
+    }
+  }
+}
